@@ -18,11 +18,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Deploy on Vercel
+## Run Locally Using Docker
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ensure you have the latest version of [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) installed. You can download it [here](https://docs.docker.com/get-docker/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Once it's installed, run:
+
+```bash
+docker-compose up --build --force-recreate
+```
 
 ## Docs
 
